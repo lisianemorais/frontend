@@ -1,0 +1,15 @@
+{
+    "name": "Lima e Souza",
+    "description": "Site de Escritorio de advocacia",
+    "authors": [
+        {
+            "name": "Lisiane Morais",
+            "email": "lisi.rmorais@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "phpmailer/phpmailer": "~5.2"
+
+    }
+}
