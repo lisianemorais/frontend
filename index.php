@@ -10,11 +10,11 @@
     <!-- slider / breadcrumbs section -->
     <!--Carousel Start -->
     <div id="owl-demo" class="owl-carousel owl-theme" style="width: 100%;">
-        <div class="item img-fluid"><img src="images/aposentado-viajando.jpg" alt="slider-image"/>
+        <div class="item img-fluid"><img src="assets/images/aposentado-viajando.jpg" alt="slider-image"/>
         </div>
-        <div class="item img-fluid"><img src="images/familia_feliz.jpg" alt="slider-image">
+        <div class="item img-fluid"><img src="assets/images/familia_feliz.jpg" alt="slider-image">
         </div>
-        <div class="item img-fluid"><img src="images/aposentadoria_especial_saude.jpg" alt="slider-image">
+        <div class="item img-fluid"><img src="assets/images/aposentadoria_especial_saude.jpg" alt="slider-image">
         </div>
     </div>
     <!-- //Carousel End -->
@@ -32,10 +32,10 @@
     </a>
 
     <!--global js starts-->
-    <script type="text/javascript" src="js/frontend/lib.js"></script>
-    <script type="text/javascript" src='js/frontend/jquery.circliful.js'></script>
-    <script type="text/javascript" src='vendors/wow/js/wow.min.js'></script>
-    <script type="text/javascript" src='vendors/owl_carousel/js/owl.carousel.min.js'></script> 
+    <script type="text/javascript" src="assets/js/frontend/lib.js"></script>
+    <script type="text/javascript" src='assets/js/frontend/jquery.circliful.js'></script>
+    <script type="text/javascript" src='assets/vendors/wow/js/wow.min.js'></script>
+    <script type="text/javascript" src='assets/vendors/owl_carousel/js/owl.carousel.min.js'></script> 
 
     <!--global js end-->
     <!-- begin page level js -->

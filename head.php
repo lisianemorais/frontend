@@ -15,8 +15,8 @@
         Lima e Souza Advogados
     </title>
     <!--global css starts-->
-    <link rel="stylesheet" type="text/css" href="css/lib.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/lib.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <style>
       .dropdown-item:active{
             background-color: transparent !important;
@@ -27,10 +27,10 @@
     </style>
     <!--end of global css-
     <!--page level css-->
-    <link rel="stylesheet" type="text/css" href="css/frontend/tabbular.css">
-    <link rel="stylesheet" type="text/css" href="vendors/animate/animate.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/frontend/jquery.circliful.css">
-    <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/frontend/tabbular.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/animate/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/frontend/jquery.circliful.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/owl_carousel/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/owl_carousel/css/owl.theme.css">
     <!--end of page level css-->
 </head>

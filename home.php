@@ -5,7 +5,7 @@
         <div class="col-12 text-center my-3">
             <h3 class="border-default"><span class="heading_border bg-default mx-auto">Áreas de Atuação</span></h3>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-3 wow bounceInLeft" data-wow-duration="3.5s">
+        <div class="col-sm-6 col-md-6 col-lg-3 wow" data-wow-duration="3.5s">
             <div class="box">
                 <div class="box-icon">
                     <i class="livicon icon" data-name="balance" data-size="55" data-loop="true" data-c="#01bc8c"
@@ -21,7 +21,7 @@
         </div>
         <!-- //Responsive Section End -->
         <!-- Easy to Use Section Start -->
-        <div class="col-sm-6 col-md-6  col-lg-3 col-12 wow bounceInDown" data-wow-duration="3s" data-wow-delay="0.4s">
+        <div class="col-sm-6 col-md-6  col-lg-3 col-12 wow" data-wow-duration="3s" data-wow-delay="0.4s">
             <!-- Box Start -->
             <div class="box">
                 <div class="box-icon box-icon1">
@@ -38,7 +38,7 @@
         </div>
         <!-- //Easy to Use Section End -->
         <!-- Clean Design Section Start -->
-        <div class="col-sm-6 col-md-6  col-lg-3 col-12 wow bounceInUp" data-wow-duration="3s" data-wow-delay="0.8s">
+        <div class="col-sm-6 col-md-6  col-lg-3 col-12 wow " data-wow-duration="3s" data-wow-delay="0.8s">
             <div class="box">
                 <div class="box-icon box-icon2">
                     <i class="livicon icon1" data-name="legal" data-size="55" data-loop="true" data-c="#f89a14"
@@ -54,7 +54,7 @@
         </div>
         <!-- //Clean Design Section End -->
         <!-- 20+ Page Section Start -->
-        <div class="col-sm-6 col-md-6 col-lg-3 col-12  wow bounceInRight" data-wow-duration="5s" data-wow-delay="1.2s">
+        <div class="col-sm-6 col-md-6 col-lg-3 col-12  wow " data-wow-duration="5s" data-wow-delay="1.2s">
             <div class="box">
                 <div class="box-icon box-icon3">
                     <i class="livicon icon1" data-name="folder-open" data-size="55" data-loop="true" data-c="#FFD43C"
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-md-5 col-sm-9 col-xs-12 wow zoomIn" data-wow-duration="2s">
                 <div class="difference-image">
-                    <img src="images/diferenciais.jpg" alt="layout" class="img-fluid"/>
+                    <img src="assets/images/diferenciais.jpg" alt="layout" class="img-fluid"/>
                 </div>
             </div>
             <div class="col-md-7 col-sm-3 col-xs-12 wow lightSpeedIn" data-wow-duration="2s">
@@ -119,10 +119,10 @@
             <h3 class=" border-default"><span class="heading_border bg-default">Perguntas Frequentes</span></h3></div>
     </div>
     <div class="row text-center">
-        <div class="col-md-6 col-sm-6 col-12 col-lg-3 profile wow fadeInLeft" data-wow-duration="3s"
+        <div class="col-md-6 col-sm-6 col-12 col-lg-3 profile wow " data-wow-duration="3s"
              data-wow-delay="0.5s">
             <div class="thumbnail bg-white">
-                <img src="images/trabalhador-rural-inss.png" alt="team-image" class="img-fluid">
+                <img src="assets/images/trabalhador-rural-inss.png" alt="team-image" class="img-fluid">
                 <div class="caption">
                      <b>Quero me aposentar</b>
                         <br />
@@ -136,10 +136,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-lg-3 col-12 profile wow fadeInUp" data-wow-duration="3s"
+        <div class="col-md-6 col-sm-6 col-lg-3 col-12 profile wow " data-wow-duration="3s"
              data-wow-delay="0.5s">
             <div class="thumbnail bg-white">
-                <img src="images/auxilio-negado.jpg" alt="team-image">
+                <img src="assets/images/auxilio-negado.jpg" alt="team-image">
                 <div class="caption">
                    <b>Meu auxílio foi negado</b>
                         <br />
@@ -153,10 +153,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-lg-3 col-12 profile wow fadeInDown" data-wow-duration="3s"
+        <div class="col-md-6 col-sm-6 col-lg-3 col-12 profile wow " data-wow-duration="3s"
              data-wow-delay="0.5s">
             <div class="thumbnail bg-white">
-                <img src="images/aposentadoria-aumento.jpg" alt="team-image" class="img-fluid">
+                <img src="assets/images/aposentadoria-aumento.jpg" alt="team-image" class="img-fluid">
                 <div class="caption">
                     <b>Minha aposentadoria está muito baixa!</b>
                     <p class="text-center"> Tem algo que eu possa fazer? </p>
@@ -170,10 +170,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-lg-3 col-12 profile wow fadeInRight" data-wow-duration="3s"
+        <div class="col-md-6 col-sm-6 col-lg-3 col-12 profile wow " data-wow-duration="3s"
              data-wow-delay="0.5s">
             <div class="thumbnail bg-white">
-                <img src="images/Como-pagar-dividas-revisional.jpg" alt="team-image">
+                <img src="assets/images/Como-pagar-dividas-revisional.jpg" alt="team-image">
                 <div class="caption">
                     <b>Os juros do financiamento estão muito altos</b>
                     <p class="text-center"> Posso fazer uma revisional? </p>
