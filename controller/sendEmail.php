@@ -12,9 +12,9 @@ $mail->Username = 'limaesouzaadvogadospoa@gmail.com';
 $mail->Password = '!@12qwaszx';
 $mail->Port = 587;
 
-$mail->setFrom($dados['contact-email']);
-// $mail->addAddress($dados['contact-email'], $dados['contact-name']);
-// $mail->addAddress('limaesouzaadvogadospoa@gmail.com');
+$mail->setFrom('limaesouzaadvogadospoa@gmail.com');
+$mail->addAddress($dados['contact-email'], $dados['contact-name']);
+$mail->addAddress('limaesouzaadvogadospoa@gmail.com', "$dados['contact-name']");
 
 $mail->isHTML(true);
 $mail->Subject = 'Lima e Souza Advogados';
