@@ -6,6 +6,36 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit1b2b8887e1b288dbfd586a28c8d7f2bc
 {
+    public static $prefixLengthsPsr4 = array (
+        'r' => 
+        array (
+            'routes\\' => 7,
+        ),
+        'e' => 
+        array (
+            'emails\\' => 7,
+        ),
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'routes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Routes',
+        ),
+        'emails\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/emails',
+        ),
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
+    );
+
     public static $classMap = array (
         'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
         'PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
@@ -20,6 +50,8 @@ class ComposerStaticInit1b2b8887e1b288dbfd586a28c8d7f2bc
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1b2b8887e1b288dbfd586a28c8d7f2bc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1b2b8887e1b288dbfd586a28c8d7f2bc::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit1b2b8887e1b288dbfd586a28c8d7f2bc::$classMap;
 
         }, null, ClassLoader::class);

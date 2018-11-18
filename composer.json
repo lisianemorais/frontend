@@ -11,5 +11,13 @@
         "php": ">=7.1",
         "phpmailer/phpmailer": "~5.2"
 
+    },
+    "autoload": {
+        "psr-4":{
+            "emails\\": "src/emails",
+            "app\\": "app",
+            "routes\\": "src/Routes"
+        }
     }
+
 }
