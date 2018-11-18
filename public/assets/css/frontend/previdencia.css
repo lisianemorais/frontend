@@ -1,0 +1,35 @@
+#banner-background .image-container {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.64;
+	margin-top: 210px;
+
+}
+
+.formulario-previdenciario {
+	background-color: #1e7b6d;
+	color: white;
+}
+
+.label-white{
+	color: white;
+}
+
+.faq-previdenciario {
+	margin-top: 234px;
+}
+
+.faq-previdenciario-banner{
+	font-size: 36px;
+	color: black;
+	text-align: right;
+	display: table-cell;
+}
+.titulo-previdenciario {
+	text-align: center;
+	color: #1e7b6d;
+}

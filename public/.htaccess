@@ -1,0 +1,10 @@
+# Ativar a engine de reescrita
+RewriteEngine on
+ 
+# Condições
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+ 
+# Regras
+# Redireciona para index.php se antender as condições acima
+RewriteRule ^(.*)$ index.php
