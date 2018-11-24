@@ -7,5 +7,4 @@
  /**
  Rotas para o site
  */
- Route::controller('/public/', 'app\Controllers\HomeController');
- Route::controller('/', 'app\Controllers\HomeController');
+ Route::controller('/', 'app\Controllers\Site\HomeController');
